@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+.conteiner{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+     position: fixed;
+}
+.conteiner-left{
+    flex: 0 0 60%;
+    margin-top: 2%;
+    padding: 100px;
+   
+}
+.conteiner-right{
+    flex: 1; /* Ocupa o resto */
+    background-color:  rgba(96, 96, 125, 0.16);
+    position: relative;
+}
+.a-right{
+    color: #5D5D7D;
+    margin-right: 4px;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 31px;
+}
+.a-right:nth-child(2){
+    opacity: 0.4;
+}
+.a-right:hover{
+    opacity: 0.4;
+}
+.a-right:active{
+    opacity: 0.8;
+}
+img{
+    position: relative;
+    top: 8%;
+    right: 130px;
+}
+.h1-left{
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+}
+.p-left{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    opacity: 0.6;
+    margin: 15px 0;
+}
+.btn{
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow:  0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn:active{
+    opacity: 0.5;
+}
+header{
+    margin: 24px 0 0 57px;
+}
